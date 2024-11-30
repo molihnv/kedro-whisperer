@@ -23,7 +23,7 @@ pip install -r requirements.txt
 4. Make sure that [ffmpeg](https://formulae.brew.sh/formula/ffmpeg) and [ffmpeg-python](https://pypi.org/project/ffmpeg-python/) are installed on your machine
 5. Create an .env file that contains following value:
 ```
-OPENAI_API_KEY= "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"
+OPENAI_API_KEY= ***
 ```
 6. Put `.mp3` audio files that should be processed into directory `data/01_raw`
 7. Modify Whisper parameters in file  `conf/base/parameters.yml` according to your needs
